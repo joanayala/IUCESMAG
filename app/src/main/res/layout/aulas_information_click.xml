@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:background="@drawable/cesmag_background"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_gravity="right"
+        android:src="@drawable/ic_close_black_24dp"
+        android:background="#e60e1c"
+        android:id="@+id/exit"
+        android:layout_height="wrap_content" />
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+            <TextView
+                android:layout_width="match_parent"
+                android:gravity="center"
+                android:padding="10dp"
+                android:textColor="#f5f5f5"
+                android:id="@+id/name"
+                android:textStyle="bold"
+                android:textSize="20sp"
+                android:text="name"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:layout_width="match_parent"
+                android:id="@+id/image"
+                android:layout_gravity="center"
+                android:layout_height="220dp" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="vertical"
+                android:padding="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:id="@+id/bulid"
+                    android:background="@drawable/border"
+                    android:text="bulid"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content" />
+                <TextView
+                    android:layout_width="match_parent"
+                    android:gravity="center"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/border"
+                    android:textColor="#ce1c1c"
+                    android:id="@+id/bais"
+                    android:text="bais"
+                    android:textSize="20sp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_layout"
+    tools:context=".EdificiosUniversidad">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@drawable/background_layout"
+        android:layout_height="50dp">
+
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:id="@+id/backimage"
+            android:background="#00ffffff"
+            android:src="@drawable/ic_keyboard_backspace_black_24dp"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="5"
+            android:text="Edificios de la Universidad"
+            android:textSize="20sp"
+            android:gravity="center"
+            android:id="@+id/nameofbulid"
+            android:textColor="#ffffff"
+            android:layout_height="wrap_content" />
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_weight="1"/>
+
+    </LinearLayout>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:src="@mipmap/mapaa"
+                    android:layout_gravity="center"
+                    android:background="#6E6C6D"
+                    android:id="@+id/gotomapa"
+                    android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="SEDE ADMINISTRATIVA"
+                    android:gravity="center"
+                    android:id="@+id/a"
+                    android:background="@drawable/borderedificios"
+                    android:layout_height="50dp" />
+                <View
+                    android:layout_width="2dp"
+                    android:background="@drawable/background_layout"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:text="SEDE B"
+                    android:id="@+id/b"
+                    android:gravity="center"
+                    android:background="@drawable/borderedificios"
+                    android:layout_height="50dp" />
+
+
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:background="@drawable/background_layout"
+                android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+                android:text="SEDE C"
+                android:gravity="center"
+                android:id="@+id/c"
+            android:background="@drawable/borderedificios"
+                android:layout_height="50dp" />
+            <View
+                android:layout_width="2dp"
+                android:background="@drawable/background_layout"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:id="@+id/d"
+                android:text="ITALIA - HOLANDA"
+                android:gravity="center"
+                android:background="@drawable/borderedificios"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:background="@drawable/background_layout"
+                android:layout_height="1dp"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:orientation="horizontal"
+            android:layout_height="wrap_content">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+                android:id="@+id/f"
+                android:text="SAN FRANCISCO"
+                android:gravity="center"
+            android:background="@drawable/borderedificios"
+                android:layout_height="50dp" />
+            <View
+                android:layout_width="2dp"
+                android:background="@drawable/background_layout"
+                android:layout_height="match_parent"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:text="ESPACIOS GENERALES"
+                android:gravity="center"
+                android:id="@+id/h"
+                android:background="@drawable/borderedificios"
+                android:layout_height="50dp" />
+        </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:background="@drawable/background_layout"
+                android:layout_height="1dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="COLISEO GUILLERMO DE CASTELLANA"
+                android:gravity="center"
+                android:id="@+id/w"
+                android:background="@drawable/borderedificios"
+                android:layout_height="50dp" />
+            <View
+                android:layout_width="match_parent"
+                android:background="@drawable/background_layout"
+                android:layout_height="10dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="SEDE SANTIAGO PROGRAMA DE DISEÑO GRAFICO"
+                android:gravity="center"
+                android:id="@+id/x"
+                android:textColor="#000000"
+                android:background="@drawable/borderedificios"
+                android:layout_height="50dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@drawable/background_layout"
+                android:layout_height="1dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="CONSULTORIO JURIDICO"
+                android:gravity="center"
+                android:id="@+id/g"
+                android:textColor="#000000"
+                android:background="@drawable/borderedificios"
+                android:layout_height="50dp" />
+
+            <View
+                android:layout_width="match_parent"
+                android:background="@drawable/background_layout"
+                android:layout_height="1dp"/>
+            <TextView
+                android:layout_width="match_parent"
+                android:text="SAN DAMIAN"
+                android:gravity="center"
+                android:id="@+id/damian"
+                android:textColor="@color/colorPrimary"
+                android:background="@drawable/borderedificios"
+                android:layout_height="50dp" />
+            <View
+                android:layout_width="match_parent"
+                android:background="@drawable/background_layout"
+                android:layout_height="1dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:text="Entradas"
+                android:textColor="#f5f5f5"
+                android:gravity="center"
+                android:id="@+id/e"
+                android:background="@drawable/background_layout"
+                android:layout_height="50dp" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

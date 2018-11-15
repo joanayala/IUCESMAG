@@ -1,0 +1,305 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:padding="10dp" android:background="@drawable/cesmag_background">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="Salones de clase"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="3dp"
+                    android:background="@drawable/cesmag_background"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="Oficina juridica"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="Decanatura de ingenierias"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="3dp"
+                    android:background="@drawable/cesmag_background"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="Vicerrectoria Academica"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="Sala de docentes hora catedra"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="3dp"
+                    android:background="@drawable/cesmag_background"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="Sala de docentes tiempo completo"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="Programa de Ingenieria de sistemas"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="3dp"
+                    android:background="@drawable/cesmag_background"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="Seguridad y Salud en el Trabajo"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="oratorio"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="3dp"
+                    android:background="@drawable/cesmag_background"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="cuarto tecnico"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="W.C. Hombres"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="3dp"
+                    android:background="@drawable/cesmag_background"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="W.C. mujeres"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="Monitoria"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+                <View
+                    android:layout_width="3dp"
+                    android:background="@drawable/cesmag_background"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="Sala de sistemas"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:orientation="horizontal"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:background="#f5f5f5"
+                    android:text="Laboratorio"
+                    android:textColor="#000000"
+                    android:layout_height="wrap_content" />
+
+            </LinearLayout>
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

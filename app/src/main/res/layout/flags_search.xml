@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@drawable/background_layout"
+    android:layout_margin="10dp"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/sede1"
+        android:padding="3dp"
+        android:background="#f5f5f5"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="SEDE ADMINISTRATIVA"
+            android:textColor="#000000"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/sede2"
+        android:padding="3dp"
+        android:background="#f5f5f5"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="SEDE B"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/sede3"
+        android:padding="3dp"
+        android:background="#f5f5f5"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="SEDE C"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/HOLANDA"
+        android:padding="3dp"
+        android:background="#f5f5f5"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="HOLANDA"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ITALIA"
+        android:padding="3dp"
+        android:background="#f5f5f5"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="ITALIA"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/SANFRANCISCO"
+        android:padding="3dp"
+        android:background="#f5f5f5"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="SAN FRANCISCO"
+            android:gravity="center"
+            android:textSize="20dp"
+            android:textColor="#000000"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/CONSULTORIOJURIDICO"
+        android:padding="3dp"
+        android:background="#f5f5f5"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="CONSULTORIO JURIDICO"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:id="@+id/ESPACIOSGENERALES"
+        android:padding="3dp"
+        android:background="#f5f5f5"
+        android:layout_marginTop="10dp"
+        android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="3"
+            android:text="ESPACIOS GENERALES"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:textSize="20dp"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+
+
+</LinearLayout>
